@@ -1,0 +1,56 @@
+.register {
+  width: 50%;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ant-layout {
+  background: transparent;
+}
+
+.ant-layout .ant-layout-header {
+  text-align: center;
+  color: white;
+  height: 64;
+  padding-inline: 50;
+  line-height: "64px";
+  font-weight: "bold";
+  background-color: black;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.profile{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+.ant-card-bordered {
+  border: 1px solid #000000;
+}
+
+.ant-card .ant-card-head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 56px;
+  margin-bottom: -1px;
+  padding: 0 24px;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  border-radius: 8px 8px 0 0;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
